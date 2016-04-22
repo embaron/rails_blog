@@ -1,0 +1,10 @@
+<% @posts.each do |post| %>
+<div class="postPreview">
+	<h1><%= post.title %></h1>
+	<div><%= truncate(post.body, :length => 350) %></div>
+		<br>
+		<%= link_to "Read more...", post %>
+</div>
+<br>
+<br>
+<% end %>

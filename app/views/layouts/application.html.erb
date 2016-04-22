@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <%= stylesheet_link_tag "application.css" %>
+<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<nav>
+		<ul>
+			<li><h3>Emily Baron</h3></li>
+			<li><%= link_to "home", root_path %></li>
+			<li><%= link_to "new post", new_post_path %></li>
+			<li><a href="https://www.github.com/embaron" target="_blank">github</a></li>
+		</ul>
+	</nav>
+	<div class="container">
+<%= yield %>
+</div>
+
+</body>
+</html>

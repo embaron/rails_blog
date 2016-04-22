@@ -1,0 +1,61 @@
+// Place all the styles related to the Posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	font-family: 'Lato';
+}
+
+nav {
+	padding: 10px 0px 10px 10px;
+	position: fixed;
+}
+
+ul {
+	list-style-type: none;
+	margin: 5px;
+}
+
+li {
+	width: 150px;
+	margin: 5px;
+	padding: 5px;
+	background-color: #ddd;
+	text-align: right;
+}
+
+li a {
+	background-color: #f44336;
+	margin: 5px;
+	padding: 5px 5px 5px 50px;
+	text-decoration: none;
+	color: #ddd;
+}
+
+li a:hover, a:active {
+	background-color: red;
+}
+
+li h3 {
+	color: #f44336;
+	padding: 0px 5px 0px 0px;
+}
+
+.container {
+	width: 650px;
+	padding: 15px;
+	margin: auto;
+}
+
+h2 {
+	text-decoration: underline;
+	}
+
+.postPreview {
+	border-top: 1px solid #ddd;
+	text-align: justify;
+}
+
+.postbody {
+	color: blue;
+} 
